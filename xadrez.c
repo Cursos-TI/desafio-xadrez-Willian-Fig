@@ -15,7 +15,7 @@ int main() {
 
         i++;
     }
-    printf("Torre andou cinco casas para direita !\n");
+    printf("Torre andou 5 casas para direita !\n");
 
     printf("\n========================\n");
 
@@ -39,6 +39,23 @@ int main() {
         printf("Mover para esquerda Esquerda \n"); //Imprime a direção do moviemnto da rainha
     }
     printf("Rainha se moveu 8 casas para esquerda \n");
+
+    printf("\n========================\n");
+
+    printf("Peça Cavalo\n");
+
+    int movimetocavalo = 1; //variavel para movimeto do cavalo
+
+    while (movimetocavalo--)
+    {
+        for (int i = 0; i < 2; i++)
+        {
+            printf("Baixo\n"); //Imprime "Baixo duas vezes"
+        }
+        printf("Esquerda\n"); //Imprime "Esquerda" uma vez.
+    }
+    
+    printf("Cavalo se moveu em L\n");
 
     return 0;
 }
